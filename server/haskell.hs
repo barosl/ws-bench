@@ -14,9 +14,9 @@ app :: IORef [WS.Connection] -> WS.PendingConnection -> IO ()
 app socks pending = do
     sock <- WS.acceptRequest pending
 
-    modifyIORef socks $ \x -> sock : x
-
     WS.sendTextData sock ("Welcome from Haskell!" :: Text)
+
+    modifyIORef socks $ \x -> sock : x
 
     forever $ do
         text <- WS.receiveData sock :: IO (Text)

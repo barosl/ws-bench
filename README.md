@@ -2,6 +2,8 @@
 
 100 concurrent connections has been made.
 
+The test was done using a virtual machine, which gives the test results much more credibility.
+
 ### Rust
 
 | Type   | (%) |     |     |     |     |     |

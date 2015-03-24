@@ -31,3 +31,10 @@ The test was done using a virtual machine, which gives the test results even mor
 | ------ | --- | --- | --- | --- |
 | CPU    | 8.2 | 8.2 | 8.2 | 8.2 |
 | Memory | 3.1 | 3.2 | 3.2 | 3.3 |
+
+### Go
+
+| Type   | (%)  |      |      |      |      |      |
+| ------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| CPU    | 14.6 | 14.6 | 14.6 | 14.6 | 14.7 | 14.7 |
+| Memory | 0.4  | 0.4  | 0.4  | 0.4  | 0.4  | 0.4  |

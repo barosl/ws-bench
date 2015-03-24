@@ -1,18 +1,17 @@
-from autobahn.twisted.websocket import WebSocketServerProtocol, WebSocketServerFactory
-from twisted.internet import reactor
+import websockets
+import asyncio
 
 socks = []
 
-class Server(WebSocketServerProtocol):
-    def onOpen(self):
-        socks.append(self)
+def proc(sock, path):
+    socks.append(sock)
 
-    def onMessage(self, payload, is_bin):
-        for sock in socks:
-            sock.sendMessage(payload, is_bin)
+    while True:
+        data = yield from sock.recv()
 
-factory = WebSocketServerFactory('ws://localhost:5000', debug=True)
-factory.protocol = Server
+        for cur_sock in socks:
+            yield from cur_sock.send(data)
 
-reactor.listenTCP(5000, factory)
-reactor.run()
+asyncio.async(websockets.serve(proc, '', 5000))
+
+asyncio.get_event_loop().run_forever()

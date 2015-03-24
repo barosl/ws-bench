@@ -3,6 +3,8 @@ var ws = require('nodejs-websocket');
 var socks = [];
 
 var server = ws.createServer(function(sock) {
+    sock.sendText('Welcome from JavaScript!');
+
     socks.push(sock);
 
     sock.on('text', function(text) {

@@ -43,5 +43,5 @@ The test was done using a virtual machine, which gives the test results even mor
 
 | Type   | (%)  |      |      |      |      |      |
 | ------ | ---- | ---- | ---- | ---- | ---- | ---- |
-| CPU    | 35.7 | 35.9 | 36.0 | 36.2 | 36.3 | 36.5 |
+| CPU    | 35.7 | 35.9 | 36.0 | 36.2 | 36.5 | 36.8 |
 | Memory | 1.1  | 1.1  | 1.1  | 1.1  | 1.1  | 1.1  |

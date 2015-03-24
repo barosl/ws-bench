@@ -17,3 +17,10 @@ The test was done using a virtual machine, which gives the test results even mor
 | ------ | --- | --- | --- | --- |
 | CPU    | 8.4 | 8.5 | 9.2 | 9.4 |
 | Memory | 0.5 | 0.5 | 0.5 | 0.5 |
+
+### JavaScript
+
+| Type   | (%)  |      |      |      |      |
+| ------ | ---- | ---- | ---- | ---- | ---- |
+| CPU    | 12.0 | 12.2 | 13.4 | 13.5 | 13.9 |
+| Memory | 1.9  | 1.9  | 1.9  | 1.9  | 1.9  |

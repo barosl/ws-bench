@@ -1,15 +1,15 @@
-# Scientific(tm) WebSocket server benchmark
+## Scientific™ WebSocket server benchmark
 
 100 concurrent connections has been made.
 
-## Rust
+### Rust
 
 | Type   | (%) |     |     |     |     |     |
 | ------ | --- | --- |---- | --- | --- | --- |
 | CPU    | 3.4 | 3.5 | 3.6 | 3.5 | 3.8 | 3.8 |
 | Memory | 0.4 | 0.4 | 0.6 | 0.6 | 0.6 | 0.6 |
 
-## Haskell
+### Haskell
 
 | Type   | (%) |     |     |     |
 | ------ | --- | --- | --- | --- |

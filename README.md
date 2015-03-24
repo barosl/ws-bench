@@ -1,3 +1,5 @@
+100 concurrent connections has been made.
+
 ## Rust
 
 | Type   | (%)                               |

@@ -39,7 +39,7 @@ The test was done using a virtual machine, which gives the test results even mor
 | CPU    | 12.0 | 12.2 | 13.4 | 13.9 | 14.4 | 15.1 |
 | Memory | 1.9  | 1.9  | 1.9  | 1.9  | 2.7  | 3.6  |
 
-### Python
+### Python (asyncio)
 
 | Type   | (%)  |      |      |      |      |
 | ------ | ---- | ---- | ---- | ---- | ---- |
@@ -52,3 +52,10 @@ The test was done using a virtual machine, which gives the test results even mor
 | ------ | ---- | ---- | ---- | ---- | ---- | ---- |
 | CPU    | 35.7 | 35.9 | 36.0 | 36.2 | 36.5 | 36.8 |
 | Memory | 1.1  | 1.1  | 1.1  | 1.1  | 1.1  | 1.1  |
+
+### Python (Twisted)
+
+| Type   | (%)  |      |      |      |
+| ------ | ---- | ---- | ---- | ---- |
+| CPU    | 80.5 | 80.5 | 80.6 | 80.7 |
+| Memory | 0.9  | 0.9  | 0.9  | 0.9  |

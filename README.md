@@ -20,7 +20,7 @@ The test was done using a virtual machine, which gives the test results even mor
 
 ### JavaScript (io.js)
 
-| Type   | (%)  |      |      |      |      |
-| ------ | ---- | ---- | ---- | ---- | ---- |
-| CPU    | 12.0 | 12.2 | 13.4 | 13.9 | 14.4 |
-| Memory | 1.9  | 1.9  | 1.9  | 1.9  | 2.7  |
+| Type   | (%)  |      |      |      |      |      |
+| ------ | ---- | ---- | ---- | ---- | ---- | ---- |
+| CPU    | 12.0 | 12.2 | 13.4 | 13.9 | 14.4 | 15.1 |
+| Memory | 1.9  | 1.9  | 1.9  | 1.9  | 2.7  | 3.6  |

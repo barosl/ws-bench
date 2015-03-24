@@ -1,6 +1,6 @@
 ## Scientific™ WebSocket server benchmark
 
-100 concurrent connections has been made.
+100 concurrent connections had been made.
 
 The test was done using a virtual machine, which gives the test results even more credibility.
 

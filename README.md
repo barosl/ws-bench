@@ -1,3 +1,5 @@
+# Scientific(tm) WebSocket server benchmark
+
 100 concurrent connections has been made.
 
 ## Rust

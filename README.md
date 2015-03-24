@@ -29,5 +29,5 @@ The test was done using a virtual machine, which gives the test results even mor
 
 | Type   | (%) |     |     |     |
 | ------ | --- | --- | --- | --- |
-| CPU    | 9.0 | 9.0 | 9.0 | 9.1 |
-| Memory | 3.1 | 3.1 | 3.2 | 3.2 |
+| CPU    | 8.2 | 8.2 | 8.2 | 8.2 |
+| Memory | 3.1 | 3.2 | 3.2 | 3.2 |

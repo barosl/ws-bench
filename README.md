@@ -4,6 +4,8 @@
 
 The test was done using a virtual machine, which gives the test results even more credibility.
 
+The following tables are ordered by CPU usage:
+
 ### Rust
 
 | Type   | (%) |     |     |     |     |     |
